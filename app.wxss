@@ -1,0 +1,50 @@
+page,.container {
+  display: block;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.2;
+  touch-action: manipulation;
+  user-select: none;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: none;
+  font-size: 24rpx;
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+  font-weight: normal;
+  color:#555;
+}
+
+view::before,
+view::after {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+view,
+text {
+  -webkit-text-size-adjust: none;
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  -webkit-font-smoothing: antialiased;
+  font-family: inherit;
+}

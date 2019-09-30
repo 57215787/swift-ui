@@ -1,0 +1,6 @@
+<!--swift-ui/src/components/count-down.wxml-->
+<!--  data-time="{{remain}}" -->
+<view class="{{prefixCls}}">
+  {{formattedTime}}
+  <slot />
+</view>

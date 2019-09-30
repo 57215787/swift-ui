@@ -1,0 +1,9 @@
+<!-- index.wxml -->
+<view class="container">
+  <s-count-down time="{{5*1000}}" auto-start="{{autoStart}}" id="s-count-down" bind:finish="finish"></s-count-down>
+  <s-count-down time="{{6*1000}}" auto-start="{{autoStart}}" format="{{'DD 天 HH 时 mm 分 ss 秒'}}" id="s-count-down" bind:finish="finish"></s-count-down>
+  <view class="reset" bindtap="reset">reset</view>
+  <view class="reset" bindtap="pause">pause</view>
+  <view class="reset" bindtap="start">start</view>
+  <view class="reset" bindtap="allStart">all start</view>
+</view>
